@@ -49,9 +49,8 @@ Thumbs.db
 # *.xlsx
 # *.db
 
-# Output files
-*.png
-*.jpg
-*.pdf
-outputs/
+# Output files (generated visualizations)
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
 results/
