@@ -72,6 +72,7 @@ def analyze_customer_segments(df):
     print("Customer Analysis by Gender")
     print("="*60)
     
+    # Calculate aggregated statistics by gender (means, not individual data)
     gender_analysis = df.groupby('gender').agg({
         'age': 'mean',
         'income': 'mean',
@@ -79,6 +80,7 @@ def analyze_customer_segments(df):
         'satisfaction_score': 'mean'
     }).round(2)
     
+    # Print aggregated statistics only (no individual customer data)
     print(gender_analysis)
     
     print("\n" + "="*60)
