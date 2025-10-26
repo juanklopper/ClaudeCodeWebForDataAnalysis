@@ -14,7 +14,7 @@ applyTo: "notebook"
 - End the notebook with a section `## Conclusions` where you summarize the main findings.
 - Use code cells for executable code.
 - Ensure that the code is well-commented and easy to understand.
-  - Do not create excessively long code cells.
+  - Do NOT create excessively long code cells
   - Break code cells into shorter, manageable chunks.
 - Do not use `print` statements to comment on the results of code. Rather use text and LaTeX in markdown cells after each code cell is executed to explain and interpret the code output.
 - Use markdown cells with text and LaTeX for results, interpretations, explanations, comments, and documentation. For instance if the code cell contained the code `df.Data.mean()` and the result is 42, use a markdown cell to write: The sample mean $\bar{X}=42$ beats per minute.
