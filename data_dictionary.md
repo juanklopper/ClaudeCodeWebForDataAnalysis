@@ -29,7 +29,7 @@ The “HB” column is a numerical variable and indicates the floating point val
 
 ### Diabetes
 
-The “Diabetes” column is a nominal categorical variables with sample space elements “None”, “Type I”, and “Type II”. “None” indicates that the patient does not have diabetes mellitus. “Type I” indicates that the patient has insulin-dependent diabetes mellitus.”Type II” indicates that the patient has non-insulin-dependent diabetes mellitus.
+The “Diabetes” column is a nominal categorical variables with sample space elements “No”, “Type I”, and “Type II”. “None” indicates that the patient does not have diabetes mellitus. “Type I” indicates that the patient has insulin-dependent diabetes mellitus.”Type II” indicates that the patient has non-insulin-dependent diabetes mellitus.
 
 ### Class
 
